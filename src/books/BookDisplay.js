@@ -8,7 +8,7 @@ export function BookDisplay(props) {
             <h3>Books</h3>
             <CardColumns>
                 {props.books.map(b => (
-                    <BookCard book={b} key={b,id} />
+                    <BookCard book={b} key={b.id} />
                 ))}
             </CardColumns>
         </div>
