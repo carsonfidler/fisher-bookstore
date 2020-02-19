@@ -1,13 +1,34 @@
 import React from "react";
 import "./book.css";
+import { BookDisplay } from "./BooksDisplay";
 
-export default function Book() {
+
+export default class Books extends Component {
+    constructor(props) {
+    this.state = {
+        books: [
+            {
+                id: 1,
+                title: "Domain Driven Design",
+                author: "Eric Evans",
+                isbn: "978-1942788331"
+            },
+            {
+                id: 2,
+                title: "Accelerate",
+                author: "Nicole Forsgren",
+                isbn: "978-1942788331"
+            }
+        ]
+    };
+}
+render() {
     return (
-        <div className="Book">
+        <div className="Books">
             <div className="lander">
-                <h1>Books</h1>
-                <p> Here is our book selection</p>
+                <BookDisplay books={this.state.books} />
             </div>
         </div>
     );
+}
 }
