@@ -14,20 +14,20 @@ export default class App extends Component {
       <div className="App container">
         <Navbar bg="lg" expand="lg">
           <Navbar.Brand>
-            <Link to="/">Fisher Bookstore</Link>
+            <Link to="/">What Can I Cook</Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse className="justify-content-end">
             <Nav>
               <NavItem>
-                <Nav.Link href="/books">Books</Nav.Link>
+                <Nav.Link href="/recipes">Recipes</Nav.Link>
               </NavItem>
             </Nav>
           </Navbar.Collapse>
           <Navbar.Collapse className="justify-content-end">
             <Nav>
               <NavItem>
-                <Nav.Link href="/authors">Authors</Nav.Link>
+                <Nav.Link href="/login">Login/Sign Up</Nav.Link>
               </NavItem>
             </Nav>
           </Navbar.Collapse>

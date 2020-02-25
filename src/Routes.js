@@ -1,15 +1,15 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
 import Home from "./homes/Home";
-import Books from "./books/book";
-import Authors from "./authors/author";
+import Recipes from "./recipes/recipe";
+import Login from "./login/Login";
 
 export default function Routes() {
     return (
         <Switch>
             <Route path="/" exact component={Home} />
-            <Route path="/books" component={Books} />
-            <Route path="/authors" component={Authors} />
+            <Route path="/recipes" component={Recipes} />
+            <Route path="/login" component={Login} />
         </Switch>
     )
 }

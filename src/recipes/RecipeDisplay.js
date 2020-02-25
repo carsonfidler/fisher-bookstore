@@ -1,14 +1,14 @@
 import React from "react";
-import { AuthorCard } from "./AuthorCard";
+import { RecipeCard } from "./RecipeCard";
 import { CardColumns } from "react-bootstrap";
 
-export function AuthorDisplay(props) {
+export function RecipeDisplay(props) {
     return (
         <div className="display">
-            <h3>Authors</h3>
+            <h3>Recipes</h3>
             <CardColumns>
-                {props.authors.map(a => (
-                    <AuthorCard author={a} key={a.id}  />
+                {props.recipess.map(a => (
+                    <RecipeCard recipe={a} key={a.id}  />
                 ))}
             </CardColumns>
         </div>

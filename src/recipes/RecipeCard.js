@@ -1,14 +1,14 @@
 import React from "react";
 import { Card, Button } from "react-bootstrap";
 
-export function AuthorCard(props) {
+export function RecipeCard(props) {
     return(
         <Card style={{ width: "16em" }}>
             <Card.Img variant="top" src="https://via.placeholder.com/150" />
             <Card.Body>
-                <Card.Title>{props.author.title}</Card.Title>
-                <Card.Text>Author: {props.author.author}</Card.Text>
-                <Button variant="warning">View Biography</Button>
+                <Card.Title>{props.recipess.recipe}</Card.Title>
+                <Card.Text>Recipe: {props.recipess.recipe_id}</Card.Text>
+                <Button variant="warning">View Ingredients and Cooking Instructions</Button>
             </Card.Body>
         </Card>
     );
