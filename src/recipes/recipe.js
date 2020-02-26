@@ -10,33 +10,33 @@ export default class Recipes extends Component {
             recipess: [
                 {
                     id: 1,
-                    recipe: "Eric Evans",
-                    recipe_id: "193573"
+                    recipe: "----",
+                    recipe_id: "----"
                 },
                 {
                     id: 2,
-                    recipe: "Eric Evans",
-                    recipe_id: "193573"
+                    recipe: "----",
+                    recipe_id: "-----"
                 },
                 {
                     id: 3,
-                    recipe: "Eric Evans",
-                    recipe_id: "193573"
+                    recipe: "sadfs",
+                    recipe_id: "3453436"
                 },
                 {
                     id: 4,
-                    recipe: "Eric Evans",
-                    recipe_id: "193573"
+                    recipe: "fdghdh",
+                    recipe_id: "634345"
                 },
                 {
                     id: 5,
-                    recipe: "Eric Evans",
-                    recipe_id: "193573"
+                    recipe: "fdhddfh",
+                    recipe_id: "345345"
                 },
                 {
                     id: 6,
-                    recipe: "Eric Evans",
-                    recipe_id: "193573"
+                    recipe: "dsfsdf",
+                    recipe_id: "3454"
                 },
             ]
         };
